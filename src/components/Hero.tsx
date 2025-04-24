@@ -15,21 +15,7 @@ const Hero = () => {
           Your trusted partner for all IT services, from hardware installation to 24/7 remote support. 
           We ensure your technology works for you, not against you.
         </p>
-        <div className="flex flex-col sm:flex-row gap-4">
-          <Button 
-            asChild 
-            className="text-lg px-8 py-6 bg-vivid-blue hover:bg-secondary-blue transition-colors"
-          >
-            <Link to="#contact">Get Support</Link>
-          </Button>
-          <Button 
-            asChild 
-            variant="outline" 
-            className="text-lg px-8 py-6 border-vivid-blue text-vivid-blue hover:bg-soft-blue hover:text-white transition-colors"
-          >
-            <Link to="#services">Our Services</Link>
-          </Button>
-        </div>
+        
       </div>
     </div>
   );
