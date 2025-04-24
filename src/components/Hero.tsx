@@ -5,7 +5,7 @@ import Navbar from "./Navbar";
 
 const Hero = () => {
   return (
-    <div className="relative bg-gradient-to-b from-blue-50 to-white">
+    <div className="relative bg-gradient-to-b from-soft-blue to-white">
       <Navbar />
       <div className="container mx-auto px-4 py-20 md:py-32 flex flex-col items-center">
         <h1 className="text-4xl md:text-6xl font-bold text-center text-gray-900 mb-6 text-gradient-primary">
@@ -18,14 +18,14 @@ const Hero = () => {
         <div className="flex flex-col sm:flex-row gap-4">
           <Button 
             asChild 
-            className="text-lg px-8 py-6 bg-vivid-purple hover:bg-secondary-purple transition-colors"
+            className="text-lg px-8 py-6 bg-vivid-blue hover:bg-secondary-blue transition-colors"
           >
             <Link to="#contact">Get Support</Link>
           </Button>
           <Button 
             asChild 
             variant="outline" 
-            className="text-lg px-8 py-6 border-vivid-purple text-vivid-purple hover:bg-soft-purple hover:text-white transition-colors"
+            className="text-lg px-8 py-6 border-vivid-blue text-vivid-blue hover:bg-soft-blue hover:text-white transition-colors"
           >
             <Link to="#services">Our Services</Link>
           </Button>
@@ -36,4 +36,3 @@ const Hero = () => {
 };
 
 export default Hero;
-

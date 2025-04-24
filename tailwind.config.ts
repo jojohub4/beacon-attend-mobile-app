@@ -63,11 +63,10 @@ export default {
 					ring: 'hsl(var(--sidebar-ring))'
 				},
 				// Add custom colors
-				'vivid-purple': '#8B5CF6',
-				'secondary-purple': '#7E69AB',
-				'tertiary-purple': '#6E59A5',
-				'soft-purple': '#D6BCFA',
-				'soft-blue': '#D3E4FD',
+				'vivid-blue': '#1E90FF',
+				'secondary-blue': '#4169E1',
+				'tertiary-blue': '#4682B4',
+				'soft-blue': '#87CEEB',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',

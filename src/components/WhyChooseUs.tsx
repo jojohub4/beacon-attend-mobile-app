@@ -1,4 +1,3 @@
-
 import { CheckCircle } from "lucide-react";
 
 const WhyChooseUs = () => {
@@ -30,10 +29,10 @@ const WhyChooseUs = () => {
   ];
 
   return (
-    <section id="why-choose-us" className="py-20 bg-soft-blue">
+    <section id="why-choose-us" className="py-20 bg-blue-100">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-secondary-purple">Why Choose Njoro Tech</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-secondary-blue">Why Choose Njoro Tech</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             We're committed to providing exceptional service and technical expertise to meet all your IT needs.
           </p>
@@ -43,11 +42,11 @@ const WhyChooseUs = () => {
           {reasons.map((reason, index) => (
             <div 
               key={index} 
-              className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow border-l-4 border-vivid-purple"
+              className="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition-shadow border-l-4 border-vivid-blue"
             >
               <div className="flex items-start mb-4">
-                <CheckCircle className="h-6 w-6 text-vivid-purple mr-3 flex-shrink-0 mt-1" />
-                <h3 className="text-xl font-semibold text-secondary-purple">{reason.title}</h3>
+                <CheckCircle className="h-6 w-6 text-vivid-blue mr-3 flex-shrink-0 mt-1" />
+                <h3 className="text-xl font-semibold text-secondary-blue">{reason.title}</h3>
               </div>
               <p className="text-gray-600 ml-9">{reason.description}</p>
             </div>
@@ -59,4 +58,3 @@ const WhyChooseUs = () => {
 };
 
 export default WhyChooseUs;
-

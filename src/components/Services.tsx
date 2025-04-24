@@ -4,12 +4,12 @@ import { Clock, Database, HardDrive, Monitor, Server, Shield, Users } from "luci
 
 const ServiceCard = ({ title, description, icon: Icon }) => {
   return (
-    <Card className="h-full hover:shadow-lg transition-shadow bg-gradient-to-br from-soft-purple to-white">
+    <Card className="h-full hover:shadow-lg transition-shadow bg-gradient-to-br from-soft-blue to-white">
       <CardHeader>
-        <div className="mb-2 h-12 w-12 rounded-lg bg-vivid-purple bg-opacity-20 flex items-center justify-center">
-          <Icon className="h-6 w-6 text-vivid-purple" />
+        <div className="mb-2 h-12 w-12 rounded-lg bg-vivid-blue bg-opacity-20 flex items-center justify-center">
+          <Icon className="h-6 w-6 text-vivid-blue" />
         </div>
-        <CardTitle className="text-secondary-purple">{title}</CardTitle>
+        <CardTitle className="text-secondary-blue">{title}</CardTitle>
       </CardHeader>
       <CardContent>
         <CardDescription className="text-base text-gray-700">{description}</CardDescription>
@@ -63,10 +63,10 @@ const Services = () => {
   ];
 
   return (
-    <section id="services" className="py-20 bg-gray-50">
+    <section id="services" className="py-20 bg-blue-50">
       <div className="container mx-auto px-4">
         <div className="text-center mb-16">
-          <h2 className="text-3xl md:text-4xl font-bold mb-4">Our Services</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-4 text-secondary-blue">Our Services</h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
             Njoro Tech specializes in a range of IT services designed to support both individual and business tech needs.
           </p>
