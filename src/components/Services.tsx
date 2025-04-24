@@ -4,15 +4,15 @@ import { Clock, Database, HardDrive, Monitor, Server, Shield, Users } from "luci
 
 const ServiceCard = ({ title, description, icon: Icon }) => {
   return (
-    <Card className="h-full hover:shadow-lg transition-shadow">
+    <Card className="h-full hover:shadow-lg transition-shadow bg-gradient-to-br from-soft-purple to-white">
       <CardHeader>
-        <div className="mb-2 h-12 w-12 rounded-lg bg-blue-100 flex items-center justify-center">
-          <Icon className="h-6 w-6 text-blue-600" />
+        <div className="mb-2 h-12 w-12 rounded-lg bg-vivid-purple bg-opacity-20 flex items-center justify-center">
+          <Icon className="h-6 w-6 text-vivid-purple" />
         </div>
-        <CardTitle>{title}</CardTitle>
+        <CardTitle className="text-secondary-purple">{title}</CardTitle>
       </CardHeader>
       <CardContent>
-        <CardDescription className="text-base">{description}</CardDescription>
+        <CardDescription className="text-base text-gray-700">{description}</CardDescription>
       </CardContent>
     </Card>
   );

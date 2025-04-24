@@ -8,7 +8,7 @@ const Hero = () => {
     <div className="relative bg-gradient-to-b from-blue-50 to-white">
       <Navbar />
       <div className="container mx-auto px-4 py-20 md:py-32 flex flex-col items-center">
-        <h1 className="text-4xl md:text-6xl font-bold text-center text-gray-900 mb-6">
+        <h1 className="text-4xl md:text-6xl font-bold text-center text-gray-900 mb-6 text-gradient-primary">
           Comprehensive IT Support & Solutions
         </h1>
         <p className="text-xl text-gray-600 text-center max-w-3xl mb-10">
@@ -16,10 +16,17 @@ const Hero = () => {
           We ensure your technology works for you, not against you.
         </p>
         <div className="flex flex-col sm:flex-row gap-4">
-          <Button asChild className="text-lg px-8 py-6">
+          <Button 
+            asChild 
+            className="text-lg px-8 py-6 bg-vivid-purple hover:bg-secondary-purple transition-colors"
+          >
             <Link to="#contact">Get Support</Link>
           </Button>
-          <Button asChild variant="outline" className="text-lg px-8 py-6">
+          <Button 
+            asChild 
+            variant="outline" 
+            className="text-lg px-8 py-6 border-vivid-purple text-vivid-purple hover:bg-soft-purple hover:text-white transition-colors"
+          >
             <Link to="#services">Our Services</Link>
           </Button>
         </div>
@@ -29,3 +36,4 @@ const Hero = () => {
 };
 
 export default Hero;
+

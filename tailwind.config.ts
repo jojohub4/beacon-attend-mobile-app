@@ -61,7 +61,13 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// Add custom colors
+				'vivid-purple': '#8B5CF6',
+				'secondary-purple': '#7E69AB',
+				'tertiary-purple': '#6E59A5',
+				'soft-purple': '#D6BCFA',
+				'soft-blue': '#D3E4FD',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
