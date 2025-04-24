@@ -1,6 +1,3 @@
-
-import { Button } from "@/components/ui/button";
-import { Link } from "react-router-dom";
 import Navbar from "./Navbar";
 
 const Hero = () => {
@@ -14,8 +11,7 @@ const Hero = () => {
         <p className="text-xl text-gray-600 text-center max-w-3xl mb-10">
           Your trusted partner for all IT services, from hardware installation to 24/7 remote support. 
           We ensure your technology works for you, not against you.
-        </p>
-        
+        </p>        
       </div>
     </div>
   );
